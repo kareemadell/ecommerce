@@ -1,0 +1,102 @@
+body{
+    padding: 20px;
+}
+.up_bar .left{
+    justify-content: flex-start;
+}
+.up_bar .left .spans{
+    cursor: pointer;
+    margin-right: 10px;
+}
+.up_bar .left .spans span{
+    display:block;
+  background-color: #767676;
+margin-top: 5px;
+  height: 2px;
+  width: 15px;
+}
+.up_bar .left .logo img{ 
+width: 100px;
+}
+.up_bar .left .spans span:first-child{
+margin-top: 0;
+}
+.up_bar .left ul{
+   
+    display: none;
+    width: 70%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: white;
+  
+}
+.up_bar .left ul li{
+   margin-top: 20px;
+   display:block;
+
+}
+.up_bar .left ul li:first-child{
+ margin-top: 100px;
+}
+.up_bar .left .close {
+    cursor: pointer;
+    display: none;
+    position: absolute;
+z-index: 3;
+}
+.up_bar .right .image_for_user{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+.up_bar .right .car img{
+width: 15px;
+}
+.up_bar .right .car::after{
+    width: 12px;
+    border-radius: 5px;
+}
+.body_of_site .left .sons .sone_1{
+    display: none;
+}
+.body_of_site .left .sons .sone_2{
+    display: none;
+
+}
+.body_of_site .left .sons .sone_3{
+    display: none;
+
+}
+.body_of_site .left .sons .sone_4{
+    display: none;
+
+}
+.body_of_site .left .father_iamges {
+    display: flex;
+    width: 100%;
+}
+.body_of_site .left .father_iamges img{
+    display: inline;
+    cursor: pointer;
+}
+.body_of_site{
+    display: block;
+    text-align: center;
+}
+.body_of_site .right .controls_count .greater_than{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.body_of_site .right .controls_count .button_car{
+    margin: 0 0 10px 0;
+    width: 100%;
+}
+.wrap{
+    margin: 0;
+    background-color: transparent;
+    margin-bottom: 20px;
+   
+}
